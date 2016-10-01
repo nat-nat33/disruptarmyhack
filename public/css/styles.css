@@ -1,12 +1,21 @@
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #666;
+}
 header {
     text-align: center;
-    background: #637b85;
+    background: #312c32;
     color: #fff;
     margin-bottom: 40px;
 }
 .container {
-    width: 300px;
-    margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 .canvas-container {
     min-height: 300px;
