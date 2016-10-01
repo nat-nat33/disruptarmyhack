@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    background: #637b85;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+}
+.canvas-container {
+    min-height: 300px;
+    max-height: 600px;
+    position: relative;
+}
+.grid {
+    position: relative;
+    margin-bottom: 80px;
+    background: #efefef;
+    padding: 12px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
